@@ -31,8 +31,8 @@ const AboutUs = () => {
 
       {/* right side */}
       <div className={`flex-1 flex ${layout.flexCenter} gap-7`}>
-        <img src={discussion} alt="discussion" className='w-full flex-1 lg:w-[270px] lg:h-[378px] rounded-xl shadow-sm' />
-        <div className='flex flex-col gap-7 flex-1'>
+        <img src={discussion} alt="discussion" className='w-1/2 flex-1 lg:w-[270px] lg:h-[378px] rounded-xl shadow-sm' />
+        <div className='w-1/2 flex flex-col gap-7 flex-1'>
           <img src={message} alt="message" className='w-full lg:w-[265px] lg:h-[238px] rounded-xl shadow-sm' />
           <img src={network} alt="network" className='w-full lg:w-[265px] lg:h-[238px] rounded-xl shadow-sm' />
         </div>
