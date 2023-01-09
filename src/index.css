@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+.text-paragraph   {
+    color: #656464;
+}
+
+.text-primary   {
+    color: #217BF4;
+}
+
+.bg-primary {
+    color: #217BF4;
+}
+
+.bg-secondary { 
+    background-color: #D4E7FE;
+}
+
+.text-darkBlue    {
+    color: #0A093D;
+} */
+
+.bg-gradient-lightblue {
+    background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
+}
+
+.bg-gradient-lightblue-2 {
+    background: linear-gradient(0deg, rgba(241, 246, 253, 0) 1.63%, #F1F6FD 20.5%, #F1F6FD 58.57%, #FFFFFF 100%);
+}
+
+.bg-lightblue {
+    background: #E5F0FD;
+}
+
+.bg-gradient-gray {
+    background: linear-gradient(180deg, rgba(185, 185, 185, 0.1188) 0%, rgba(94, 94, 94, 0.1566) 100%), linear-gradient(0deg, #FFFFFF, #FFFFFF);
+}
+
+.shadow-button {
+    box-shadow: 0px 7px 22px -6px #217BF457;
+}
+
+.shadow-card { 
+    box-shadow: 0px 34px 68px 0px #7473801A;
+}
+
+.shadow-feature { 
+    box-shadow: 14px 22px 52px -12px #7F7F7F21;
+}
+
+
+.bg-footer-1 { 
+    background: #2B2B39;
+}
+
+.bg-footer-2 { 
+    background: #20202D;
+}
+
+.bar { 
+    right: 0;
+    animation: showHide 250ms ease-in-out 100ms backwards;
+}
+
+@keyframes showHide { 
+    0% { 
+        transform: translateX(100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
