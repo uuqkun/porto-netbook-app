@@ -1,7 +1,7 @@
 export const fontSize = {
 
     link: "text-[12px] sm:text-[14px]",
-    paragraph: "text-[16px] sm:text-[18px]",
+    paragraph: "text-[14px] sm:text-[16px]",
     heading1: "text-[36px] sm:text-[40px] md:text-[48px]",
     heading2: "text-[32px] sm:text-[36px]",
     heading3: "text-[18px] sm:text-[20px]",

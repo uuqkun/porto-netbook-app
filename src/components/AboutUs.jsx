@@ -5,14 +5,14 @@ import { fontSize, layout } from '../styles'
 
 const AboutUs = () => {
   return (
-    <section className={`flex md:flex-row flex-col my-20 `}>
+    <section className={`flex md:flex-row flex-col my-20 py-10`}>
       {/* left side */}
       <div className={`flex-1 ${layout.flexStart} flex-col lg:mb-0 mb-10`}>
         <div className='px-5 py-2 bg-dimBlue rounded-lg mb-4'>
           <p className={`text-[12px] text-primary font-quicksand font-semibold`}>Whats Netboks?</p>
         </div>
 
-        <h1 className={`${fontSize.heading1} text-heading font-bold font-quicksand leading-[50px] md:leading-[65px] mb-4`}>
+        <h1 className={`${fontSize.heading2} text-heading font-extrabold font-quicksand leading-[50px] md:leading-[65px] mb-4`}>
           Why Join to Netbook <br className="sm:block hidden" />
           Social Network?
         </h1>
