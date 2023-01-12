@@ -30,7 +30,17 @@ const App = () => {
       <div className={`${sizing.paddingX} ${layout.flexStart}`}>
         <div className={`${layout.boxWidth}`}>
           <Team />
+        </div>
+      </div>
+
+      <div className={`${sizing.paddingX} ${layout.flexStart} bg-dimBlue`}>
+        <div className={`${layout.boxWidth}`}>
           <CTA />
+        </div>
+      </div>
+
+      <div className={`${sizing.paddingX} ${layout.flexStart}`}>
+        <div className={`${layout.boxWidth}`}>
           <News />
           <Footer />
         </div>

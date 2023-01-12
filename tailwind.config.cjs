@@ -7,6 +7,7 @@ module.exports = {
       colors: {
         primary: "#217BF4",
         dimBlue: "#F1F6FD",
+        darkerPrimary: '#E5F0FD',
         paragraph: "#656464",
         heading: "#0A093D",
       },
@@ -14,14 +15,6 @@ module.exports = {
         quicksand: ["quicksand", "sans-serif"],
       },
     },
-    // screens: {
-    //   xs: "480px",
-    //   ss: "620px",
-    //   sm: "768px",
-    //   md: "1060px",
-    //   lg: "1200px",
-    //   xl: "1700px",
-    // },
   },
   plugins: [],
 };
