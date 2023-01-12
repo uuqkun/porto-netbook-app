@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from './Button'
 import { hero } from '../assets'
-import { fontSize, layout, sizing } from '../styles'
+import { font, layout, sizing } from '../styles'
 
 const Hero = () => (
   <section className='flex md:flex-row flex-col my-10'>
@@ -12,12 +12,12 @@ const Hero = () => (
         <p className={`text-[12px] text-primary font-quicksand font-semibold`}>Netbook Community</p>
       </div>
 
-      <h1 className={`${fontSize.heading1} text-heading font-bold font-quicksand leading-[50px] md:leading-[65px] mb-4`}>
+      <h1 className={`${font.heading1} text-heading font-bold font-quicksand leading-[50px] md:leading-[65px] mb-4`}>
         Your Solutions for <br className="sm:block hidden" />
         Community
       </h1>
 
-      <p className={`${fontSize.paragraph} text-paragraph mb-4 max-w-[370px] font-quicksand leading-7`}>More than 2 billion people in over countries use socibook to stay in touch with friends & family.</p>
+      <p className={`${font.paragraph} text-paragraph mb-4 max-w-[370px] font-quicksand leading-7`}>More than 2 billion people in over countries use socibook to stay in touch with friends & family.</p>
 
       {/* left side's button */}
       <div>

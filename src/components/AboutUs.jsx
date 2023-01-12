@@ -1,7 +1,7 @@
 import React from 'react'
 import { discussion, message, network } from '../assets'
 import { joinItems } from '../constant'
-import { fontSize, layout } from '../styles'
+import { font, layout } from '../styles'
 
 const AboutUs = () => {
   return (
@@ -12,12 +12,12 @@ const AboutUs = () => {
           <p className={`text-[12px] text-primary font-quicksand font-semibold`}>Whats Netboks?</p>
         </div>
 
-        <h1 className={`${fontSize.heading2} text-heading font-extrabold font-quicksand leading-[50px] md:leading-[65px] mb-4`}>
+        <h1 className={`${font.heading2} text-heading font-extrabold font-quicksand leading-[50px] md:leading-[65px] mb-4`}>
           Why Join to Netbook <br className="sm:block hidden" />
           Social Network?
         </h1>
 
-        <p className={`${fontSize.paragraph} text-paragraph mb-4 max-w-[370px] font-quicksand leading-7`}>Recent surveys have indicated that small businesses recognise the need they have to connect with consumer.</p>
+        <p className={`${font.paragraph} text-paragraph mb-4 max-w-[370px] font-quicksand leading-7`}>Recent surveys have indicated that small businesses recognise the need they have to connect with consumer.</p>
 
         <div>
           {joinItems.map((item, index) => (

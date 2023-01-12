@@ -1,5 +1,5 @@
 import { achievements } from "../constant"
-import { fontSize, layout } from "../styles"
+import { font, layout } from "../styles"
 import Button from './Button'
 
 const Achievement = () => {
@@ -17,7 +17,7 @@ const Achievement = () => {
                 src={achievement.iconTitle}
                 alt="icon"
                 className="w-[28px]" />
-              <h4 className={`sm:${fontSize.heading3} text-[16px] font-quicksand text-heading font-semibold`}>{achievement.title}</h4>
+              <h4 className={`sm:${font.heading3} text-[16px] font-quicksand text-heading font-semibold`}>{achievement.title}</h4>
             </div>
 
             <div className="flex items-center gap-2 mb-8">
@@ -49,12 +49,12 @@ const Achievement = () => {
             <p className={`text-[12px] text-primary font-quicksand font-semibold`}>Our Achievement</p>
           </div>
 
-          <h1 className={`${fontSize.heading2} text-heading font-extrabold font-quicksand leading-[50px] md:leading-[65px] mb-4`}>
+          <h1 className={`${font.heading2} text-heading font-extrabold font-quicksand leading-[50px] md:leading-[65px] mb-4`}>
             We are Connecting <br className="sm:block hidden" />
             You The Digital Life.
           </h1>
 
-          <p className={`${fontSize.paragraph} text-paragraph mb-4 max-w-[370px] font-quicksand leading-7`}>The scope the Social Media becomes crucial Is helps the business to directly engage with their needs and wants.</p>
+          <p className={`${font.paragraph} text-paragraph mb-4 max-w-[370px] font-quicksand leading-7`}>The scope the Social Media becomes crucial Is helps the business to directly engage with their needs and wants.</p>
 
           <Button value={'Discover Me'} classes="text-white bg-primary shadow-button"/>
         </div>

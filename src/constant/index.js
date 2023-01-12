@@ -125,32 +125,70 @@ export const features = [
     },
 ];
 
-export const cards = [
-    {
-        id: 'card-1',
-        image: member1,
-        name: 'Budi Santoso',
-        insta: '@budi_st'
-    },
-    {
-        id: 'card-2',
-        image: member2,
-        name: 'Fahim Rahman',
-        insta: '@fahim'
-    },
-    {
-        id: 'card-3',
-        image: member3,
-        name: 'Naufal',
-        insta: '@naufal'
-    },
-    {
-        id: 'card-4',
-        image: member4,
-        name: 'Arif Arifin',
-        insta: '@a_arf'
-    },
-];
+
+export const members = {
+    new: [
+        {
+            id: 'card-1',
+            image: member1,
+            name: 'Budi Santoso',
+            insta: '@budi_st'
+        },
+        {
+            id: 'card-2',
+            image: member2,
+            name: 'Fahim Rahman',
+            insta: '@fahim'
+        },
+        {
+            id: 'card-3',
+            image: member3,
+            name: 'Naufal Jayyeed',
+            insta: '@naufal'
+        },
+    ],
+    popular: [
+        {
+            id: 'card-1',
+            image: member2,
+            name: 'Fahim Rahman',
+            insta: '@fahim'
+        },
+        {
+            id: 'card-2',
+            image: member4,
+            name: 'Arif Arifin',
+            insta: '@a_arf'
+        },
+    ],
+    active: [
+        {
+            id: 'card-1',
+            image: member1,
+            name: 'Budi Santoso',
+            insta: '@budi_st'
+        },
+        {
+            id: 'card-2',
+            image: member2,
+            name: 'Fahim Rahman',
+            insta: '@fahim'
+        },
+        {
+            id: 'card-3',
+            image: member3,
+            name: 'Naufal Jayyeed',
+            insta: '@naufal'
+        },
+        {
+            id: 'card-4',
+            image: member4,
+            name: 'Arif Arifin',
+            insta: '@a_arf'
+        },
+    ]
+};
+
 
 export const blogs = [
     {

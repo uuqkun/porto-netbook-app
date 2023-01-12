@@ -1,5 +1,5 @@
 import { features } from '../constant'
-import { fontSize, layout } from '../styles'
+import { font, layout } from '../styles'
 
 const Features = () => (
   <section className='flex flex-col items-center py-44'>
@@ -8,11 +8,11 @@ const Features = () => (
         <p className={`text-[12px] text-primary font-quicksand font-semibold`}>Whats Netboks?</p>
       </div>
 
-      <h1 className={`${fontSize.heading2} text-heading font-extrabold font-quicksand leading-[50px] md:leading-[65px] mb-4 text-center`}>
+      <h1 className={`${font.heading2} text-heading font-extrabold font-quicksand leading-[50px] md:leading-[65px] mb-4 text-center`}>
         Community Main Feature
       </h1>
 
-      <p className={`${fontSize.paragraph} text-paragraph mb-4 max-w-[370px] font-quicksand leading-7 text-center`}>The wise man therefore always holds in these matters to this principle of selection.</p>
+      <p className={`${font.paragraph} text-paragraph mb-4 max-w-[370px] font-quicksand leading-7 text-center`}>The wise man therefore always holds in these matters to this principle of selection.</p>
     </div>
 
     {/* features */}
@@ -29,7 +29,7 @@ const Features = () => (
 
           <div className='md:ml-1'>
             <h2 className={`text-heading font-quicksand font-bold text-lg mb-1`}>{feature.title}</h2>
-            <p className={`text-sm text-paragraph font-quicksand`}>{feature.value}</p>
+            <p className={`text-paragraph font-quicksand`}>{feature.value}</p>
           </div>
 
         </div>
