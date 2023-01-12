@@ -6,7 +6,7 @@ module.exports = {
     extend: {
       colors: {
         primary: "#217BF4",
-        dimBlue: "#D4E7FE",
+        dimBlue: "#F1F6FD",
         paragraph: "#656464",
         heading: "#0A093D",
       },

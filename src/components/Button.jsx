@@ -1,5 +1,10 @@
-const Button = ({ value, classes }) => (
-  <button type='button' className={`py-4 px-8 text-xs md:text-[14px] font-normal font-quicksand rounded-xl outline-none ${classes}`}>{value}</button>
+const Button = ({ value, classes, event: onClick}) => (
+  <button
+    type='button'
+    className={`py-4 px-8 text-xs md:text-[14px] font-normal font-quicksand rounded-xl outline-none ${classes}`} 
+    onClick={onClick}>
+    {value}
+  </button>
 )
 
 export default Button

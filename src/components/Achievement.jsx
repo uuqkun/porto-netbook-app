@@ -6,7 +6,7 @@ const Achievement = () => {
   return (
     <section className="flex md:flex-row flex-col-reverse my-20 py-10 gap-5">
       {/* left side */}
-      <div className={`flex-[2] flex justify-start items-center sm:flex-row flex-col`}>
+      <div className={`flex-[2] flex justify-start items-center sm:flex-row flex-col-reverse`}>
         {/* cards */}
         {achievements.map((achievement, index) => (
           <div

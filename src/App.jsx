@@ -18,7 +18,17 @@ const App = () => {
         <div className={`${layout.boxWidth}`}>
           <AboutUs />
           <Achievement />
+        </div>
+      </div>
+
+      <div className={`${sizing.paddingX} ${layout.flexStart} bg-gradient-lightblue-2`}>
+        <div className={`${layout.boxWidth}`}>
           <Features />
+        </div>
+      </div>
+
+      <div className={`${sizing.paddingX} ${layout.flexStart}`}>
+        <div className={`${layout.boxWidth}`}>
           <Team />
           <CTA />
           <News />
