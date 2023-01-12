@@ -95,7 +95,7 @@ const Team = () => {
 
         <div
           id="active"
-          className='member-tab tabs flex flex-wrap items-center justify-center gap-10'>
+          className='member-tab tabs hidden flex-wrap items-center justify-center gap-10'>
           {members.active.map((member, i) => (
             <div 
             key={member.id}
