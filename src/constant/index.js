@@ -28,19 +28,23 @@ import {
 export const navLinks = [
     {
         id: 'home',
-        value: 'Home'
+        value: 'Home',
+        link: 'https://github.com/uuqkun'
     },
     {
         id: 'community',
-        value: 'Community'
+        value: 'Community',
+        link: 'https://github.com/uuqkun'
     },
     {
         id: 'blog',
-        value: 'Blog'
+        value: 'Blog',
+        link: 'https://github.com/uuqkun'
     },
     {
         id: 'repository',
-        value: 'Repository'
+        value: 'Repository',
+        link: 'https://github.com/uuqkun'
     },
 ];
 
