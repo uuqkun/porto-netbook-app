@@ -235,27 +235,6 @@ export const footerLinks = [
         ]
     },
     {
-        title: 'Home',
-        links: [
-            {
-                name: 'Home',
-                link: 'https://github.com/uuqkun'
-            },
-            {
-                name: 'Community',
-                link: 'https://github.com/uuqkun'
-            },
-            {
-                name: 'Events',
-                link: 'https://github.com/uuqkun'
-            },
-            {
-                name: 'Contact',
-                link: 'https://github.com/uuqkun'
-            },
-        ]
-    },
-    {
         title: 'Resources',
         links: [
             {

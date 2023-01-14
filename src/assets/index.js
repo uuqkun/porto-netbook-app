@@ -27,6 +27,7 @@ import member3 from './member3.png'
 import member4 from './member4.png'
 import mobileMockup from './mobileMockup.png'
 import netbookLogo from './netbookLogo.png'
+import netbookLogoWhite from './netbookLogoWhite.png'
 import people from './people.png'
 import star from './star.png'
 import trophy from './trophy.png'
@@ -35,6 +36,7 @@ import close from './close.svg'
 import menu from './menu.svg'
 
 export {
+    netbookLogoWhite,
     close,
     menu,
     appleStore,

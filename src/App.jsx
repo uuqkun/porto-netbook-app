@@ -45,7 +45,7 @@ const App = () => {
         </div>
       </div>
 
-      <div className={`${sizing.paddingX} ${layout.flexStart} mt-20`}>
+      <div className={`${sizing.paddingX} ${layout.flexStart} mt-20 bg-footer-1`}>
         <div className={`${layout.boxWidth}`}>
           <Footer />
         </div>

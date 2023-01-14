@@ -2,7 +2,7 @@
 
 === hero section ===
 > hero image    : 585px x 501px
-> icon          : 143px x 34px
+> netbook icon  : 143px x 34px
 
 === about us ===
 > message       : 265px x 238px
