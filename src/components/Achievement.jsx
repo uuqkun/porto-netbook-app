@@ -8,34 +8,34 @@ const Achievement = () => {
       {/* left side */}
       <div className={`flex-[2] flex justify-start items-center sm:flex-row flex-col-reverse`}>
         {/* cards */}
-        {achievements.map((achievement, index) => (
+        {achievements.map(({ id, iconTitle, title, secondIcon, desc, cardText, button, arrowIcon}, index) => (
           <div
-            key={achievement.id}
+            key={id}
             className={`${index !== achievements.length - 1 ? 'shadow-card sm:mr-6 md:mb-0 mb-5' : 'border-gray-200 border-[1px] md:mr-0'}  md:max-w-[340px] lg:max-h-[340px] max-h-auto p-10 rounded-2xl`}>
             <div className="flex items-center gap-2 mb-8">
               <img
-                src={achievement.iconTitle}
+                src={iconTitle}
                 alt="icon"
                 className="w-[28px]" />
-              <h4 className={`sm:${font.heading3} text-[16px] font-quicksand text-heading font-semibold`}>{achievement.title}</h4>
+              <h4 className={`sm:${font.heading3} text-[16px] font-quicksand text-heading font-semibold`}>{title}</h4>
             </div>
 
             <div className="flex items-center gap-2 mb-8">
               <img
-                src={achievement.secondIcon}
+                src={secondIcon}
                 alt="icon"
                 className={`${index !== achievements.length - 1 ? 'w-[60px] h-[34px]' : 'w-[24px]'} object-contain`} />
-              <h4 className="font-quicksand md:text-[14px] text-xs">{achievement.desc}</h4>
+              <h4 className="font-quicksand md:text-[14px] text-xs">{desc}</h4>
             </div>
 
-            <p className={`md:text-[14px] text-xs font-quicksand text-paragraph mb-8 leading-[25px]`}>{achievement.cardText}</p>
+            <p className={`md:text-[14px] text-xs font-quicksand text-paragraph mb-8 leading-[25px]`}>{cardText}</p>
 
             <a
               href="#"
               className={`${index !== achievements.length - 1 ? 'text-primary' : 'text-black'} md:text-[14px] text-xs font-quicksand flex items-center gap-2`}>
-              {achievement.button}
+              {button}
 
-              <img src={achievement.arrowIcon} alt="arrowIcon" />
+              <img src={arrowIcon} alt="arrowIcon" />
             </a>
 
           </div>

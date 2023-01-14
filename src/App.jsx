@@ -14,34 +14,39 @@ const App = () => {
       </div>
 
       {/* Other comps */}
-      <div className={`${sizing.paddingX} ${layout.flexStart}`}>
+      <div className={`${sizing.paddingX} ${layout.flexStart} my-20`}>
         <div className={`${layout.boxWidth}`}>
           <AboutUs />
           <Achievement />
         </div>
       </div>
 
-      <div className={`${sizing.paddingX} ${layout.flexStart} bg-gradient-lightblue-2`}>
+      <div className={`${sizing.paddingX} ${layout.flexStart} bg-gradient-lightblue-2 my-20`}>
         <div className={`${layout.boxWidth}`}>
           <Features />
         </div>
       </div>
 
-      <div className={`${sizing.paddingX} ${layout.flexStart}`}>
+      <div className={`${sizing.paddingX} ${layout.flexStart} my-20`}>
         <div className={`${layout.boxWidth}`}>
           <Team />
         </div>
       </div>
 
-      <div className={`${sizing.paddingX} ${layout.flexStart} bg-dimBlue`}>
+      <div className={`${sizing.paddingX} ${layout.flexStart} bg-dimBlue my-20`}>
         <div className={`${layout.boxWidth}`}>
           <CTA />
         </div>
       </div>
 
-      <div className={`${sizing.paddingX} ${layout.flexStart}`}>
+      <div className={`${sizing.paddingX} ${layout.flexStart} my-20`}>
         <div className={`${layout.boxWidth}`}>
           <News />
+        </div>
+      </div>
+
+      <div className={`${sizing.paddingX} ${layout.flexStart} mt-20`}>
+        <div className={`${layout.boxWidth}`}>
           <Footer />
         </div>
       </div>

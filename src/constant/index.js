@@ -195,19 +195,19 @@ export const blogs = [
         id: 'blog-1',
         title: 'It Does Not Matter Hows Slowly go as Long',
         image: blog1,
-        link: '#'
+        link: 'https://github.com/uuqkun'
     },
     {
         id: 'blog-2',
         title: 'Netbook Network Added New Photo Filter',
         image: blog2,
-        link: '#'
+        link: 'https://github.com/uuqkun'
     },
     {
         id: 'blog-3',
         title: 'We Optimised Netbooks Better Navigation',
         image: blog3,
-        link: '#'
+        link: 'https://github.com/uuqkun'
     },
 ];
 
@@ -218,19 +218,19 @@ export const footerLinks = [
         links: [
             {
                 name: 'Home',
-                link: '#'
+                link: 'https://github.com/uuqkun'
             },
             {
                 name: 'Community',
-                link: '#'
+                link: 'https://github.com/uuqkun'
             },
             {
                 name: 'Events',
-                link: '#'
+                link: 'https://github.com/uuqkun'
             },
             {
                 name: 'Contact',
-                link: '#'
+                link: 'https://github.com/uuqkun'
             },
         ]
     },
@@ -239,19 +239,19 @@ export const footerLinks = [
         links: [
             {
                 name: 'Home',
-                link: '#'
+                link: 'https://github.com/uuqkun'
             },
             {
                 name: 'Community',
-                link: '#'
+                link: 'https://github.com/uuqkun'
             },
             {
                 name: 'Events',
-                link: '#'
+                link: 'https://github.com/uuqkun'
             },
             {
                 name: 'Contact',
-                link: '#'
+                link: 'https://github.com/uuqkun'
             },
         ]
     },
@@ -260,19 +260,19 @@ export const footerLinks = [
         links: [
             {
                 name: 'Blog',
-                link: '#'
+                link: 'https://github.com/uuqkun'
             },
             {
                 name: 'News',
-                link: '#'
+                link: 'https://github.com/uuqkun'
             },
             {
                 name: 'Guides',
-                link: '#'
+                link: 'https://github.com/uuqkun'
             },
             {
                 name: 'Help Center',
-                link: '#'
+                link: 'https://github.com/uuqkun'
             },
         ]
     },
@@ -281,19 +281,19 @@ export const footerLinks = [
         links: [
             {
                 name: 'NewsFeed',
-                link: '#'
+                link: 'https://github.com/uuqkun'
             },
             {
                 name: 'Profile',
-                link: '#'
+                link: 'https://github.com/uuqkun'
             },
             {
                 name: 'Friends',
-                link: '#'
+                link: 'https://github.com/uuqkun'
             },
             {
                 name: 'Forum',
-                link: '#'
+                link: 'https://github.com/uuqkun'
             },
         ]
     },
@@ -302,19 +302,19 @@ export const footerLinks = [
         links: [
             {
                 name: 'Members',
-                link: '#'
+                link: 'https://github.com/uuqkun'
             },
             {
                 name: 'Activity',
-                link: '#'
+                link: 'https://github.com/uuqkun'
             },
             {
                 name: 'Groups',
-                link: '#'
+                link: 'https://github.com/uuqkun'
             },
             {
                 name: 'Private group',
-                link: '#'
+                link: 'https://github.com/uuqkun'
             },
         ]
     },
