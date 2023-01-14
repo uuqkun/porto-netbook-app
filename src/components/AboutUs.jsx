@@ -5,7 +5,7 @@ import { font, layout } from '../styles'
 
 const AboutUs = () => {
   return (
-    <section className={`flex md:flex-row flex-col my-20 py-10`}>
+    <section className={`flex md:flex-row flex-col py-10`}>
       {/* left side */}
       <div className={`flex-1 ${layout.flexStart} flex-col lg:mb-0 mb-10`}>
         <div className='px-5 py-2 bg-dimBlue rounded-lg mb-4'>

@@ -24,10 +24,10 @@ const openTab = (e, id) => {
 
 const Team = () => {
   return (
-    <section className={`${layout.flexCenter} flex-col my-20`}>
+    <section className={`${layout.flexCenter} flex-col mb-20`}>
       {/* title */}
       <div className='my-10'>
-        <div className={`flex-1 ${layout.flexCenter} flex-col lg:mb-0 mb-10`}>
+        <div className={`flex-1 ${layout.flexCenter} flex-col md:mb-0 mb-5`}>
           <div className='px-5 py-2 bg-dimBlue rounded-lg mb-4'>
             <p className={`text-[12px] text-primary font-quicksand font-semibold`}>Valuable Team</p>
           </div>
@@ -36,12 +36,12 @@ const Team = () => {
             Our Active Members
           </h1>
 
-          <p className={`${font.paragraph} text-paragraph mb-4 max-w-[370px] font-quicksand leading-7 text-center`}>when an unknown printer took a galley of type and meeting fari scrambled it.</p>
+          <p className={`${font.paragraph} text-paragraph max-w-[370px] font-quicksand leading-7 text-center`}>when an unknown printer took a galley of type and meeting fari scrambled it.</p>
         </div>
       </div>
 
       {/* nav tabs */}
-      <div className={`my-10 bg-dimBlue rounded-2xl p-3`}>
+      <div className={`mb-10 bg-dimBlue rounded-2xl p-3`}>
         <Button
           value='New'
           classes='tablink link-item bg-primary text-white shadow-button'

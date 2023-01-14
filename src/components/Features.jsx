@@ -2,7 +2,7 @@ import { features } from '../constant'
 import { font, layout } from '../styles'
 
 const Features = () => (
-  <section className='flex flex-col items-center py-44'>
+  <section className='flex flex-col items-center py-20'>
     <div className={`flex-1 ${layout.flexCenter} flex-col lg:mb-0 mb-10`}>
       <div className='px-5 py-2 bg-dimBlue rounded-lg mb-4'>
         <p className={`text-[12px] text-primary font-quicksand font-semibold`}>Whats Netboks?</p>
