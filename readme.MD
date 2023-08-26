@@ -1,3 +1,9 @@
+[Run]
+1. buka terminal, ketika command npm run dev
+2. buka di port lokal dengan ctrl + click
+3. 
+
+
 [ImagesSizing]
 
 === hero section ===
