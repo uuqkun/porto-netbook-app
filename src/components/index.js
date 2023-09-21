@@ -10,6 +10,7 @@ import Hero from './Hero'
 import Navbar from './Navbar'
 import News from './News'
 import Team from './Team'
+import SubHeader from './SubHeader'
 
 export {
     AboutUs,
@@ -24,4 +25,5 @@ export {
     Navbar,
     News,
     Team,
+    SubHeader
 }

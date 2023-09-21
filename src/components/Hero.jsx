@@ -1,7 +1,8 @@
-import React from 'react'
-import Button from './Button'
-import { hero } from '../assets'
-import { font, layout, sizing } from '../styles'
+import React from 'react';
+import Button from './Button';
+import { hero } from '../assets';
+import { font, layout, sizing } from '../styles';
+import { SubHeader } from "../components";
 
 const Hero = () => (
   <section className='flex md:flex-row flex-col my-10'>
@@ -9,7 +10,7 @@ const Hero = () => (
     <div className={`flex-1 ${layout.flexStart} flex-col lg:mb-0 mb-10`}>
       {/* Netbook Community */}
       <div className='px-5 py-2 bg-dimBlue rounded-lg mb-4'>
-        <p className={`text-[12px] text-primary font-quicksand font-semibold`}>Netbook Community</p>
+        <SubHeader value={"Netbook Community"} />
       </div>
 
       <h1 className={`${font.heading1} text-heading font-bold font-quicksand leading-[50px] md:leading-[65px] mb-4`}>
