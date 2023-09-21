@@ -15,8 +15,8 @@ const Navbar = () => {
         className='w-[143px] h-[34px]' />
 
       {/* Desktop view nav list */}
-      <ul className={`sm:flex hidden flex-1 justify-between items-center pl-20`}>
-        <div className='flex gap-8'>
+      <ul className={`sm:flex hidden flex-1 justify-between items-center pl-56`}>
+        <div className='flex gap-14'>
           {navLinks.map((navLink) => (
             <li key={navLink.id} className='list-none '>
               <a href={navLink.id} className={`font-quicksand text ${font.link}`}>{navLink.value}</a>
