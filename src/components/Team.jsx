@@ -3,7 +3,6 @@ import { members } from "../constant";
 import { font, layout } from "../styles";
 import { SubHeader, Button } from "../components";
 
-
 const openTab = (e, id) => {
   let tabs = Array.from(document.getElementsByClassName("tabs"));
   let tabLinks = Array.from(document.getElementsByClassName("tablink"));
@@ -28,9 +27,7 @@ const Team = () => {
       {/* title */}
       <div className="my-10">
         <div className={`flex-1 ${layout.flexCenter} flex-col md:mb-0 mb-5`}>
-          <div className="px-5 py-2 bg-dimBlue rounded-lg mb-4">
-            <SubHeader value={"Valuable Team"} />
-          </div>
+          <SubHeader value={"Valuable Team"} />
 
           <h1
             className={`${font.heading2} text-heading font-extrabold font-quicksand leading-[50px] md:leading-[65px] mb-4 text-center`}

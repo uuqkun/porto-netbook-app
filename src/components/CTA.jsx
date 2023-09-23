@@ -6,9 +6,7 @@ const CTA = () => (
   <section className="flex sm:flex-row flex-col min-h-[500px]">
     {/* text */}
     <div className={`flex-1 ${layout.flexStart} flex-col my-20`}>
-      <div className="px-5 py-2 bg-darkerPrimary rounded-lg mb-4">
-        <SubHeader value={"Get Our App"} />
-      </div>
+      <SubHeader value={"Get Our App"} />
 
       <h1
         className={`${font.heading2} text-heading font-extrabold font-quicksand leading-[50px] md:leading-[65px] mb-4`}

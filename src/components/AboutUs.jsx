@@ -9,9 +9,7 @@ const AboutUs = () => {
     <section className={`flex md:flex-row flex-col py-10`}>
       {/* left side */}
       <div className={`flex-1 ${layout.flexStart} flex-col lg:mb-0 mb-10`}>
-        <div className="px-5 py-2 bg-dimBlue rounded-lg mb-4">
-          <SubHeader value={"What's Netbook"} />
-        </div>
+        <SubHeader value={"What's Netbook"} />
 
         <h1
           className={`${font.heading2} text-heading font-extrabold font-quicksand leading-[50px] md:leading-[65px] mb-4`}
